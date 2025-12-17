@@ -1,0 +1,54 @@
+.message-bubble {
+    max-width: 65%;
+    margin-bottom: 8px;
+    position: relative;
+    display: flex;
+    clear: both;
+}
+
+.message-bubble.own {
+    align-self: flex-end;
+    justify-content: flex-end;
+    float: right;
+}
+
+.message-content {
+    background-color: white;
+    padding: 8px 10px;
+    border-radius: 8px;
+    box-shadow: 0 1px 0.5px rgba(0, 0, 0, 0.13);
+    position: relative;
+}
+
+.message-bubble.own .message-content {
+    background-color: #d9fdd3;
+}
+
+.message-content p {
+    margin: 0;
+    color: #111b21;
+    font-size: 14.2px;
+    line-height: 19px;
+    margin-right: 20px;
+    /* Space for time */
+}
+
+.message-meta {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 11px;
+    color: #667781;
+    margin-top: 4px;
+    margin-left: 4px;
+    float: right;
+}
+
+.status-icon {
+    margin-left: 3px;
+    font-size: 16px;
+}
+
+.status-icon.blue {
+    color: #53bdeb;
+}
